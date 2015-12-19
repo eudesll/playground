@@ -1,7 +1,7 @@
 /* 
    Project Euler
    Problem 2
-   Problem Name: Even Fibonacci numbers.cpp
+   Problem Name: Even Fibonacci numbers
 */
 
 #include <iostream>
