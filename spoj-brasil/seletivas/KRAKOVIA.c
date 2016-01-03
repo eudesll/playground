@@ -79,7 +79,7 @@ int main() {
         }
 
         num.tam = 0;
-        memset(num.x , 0 , 30*sizeof(int));
+        memset(num.x , 0 , 30 * sizeof(int));
 
         for(i = 0; i < n; i++) {
             scanf("%s" , aux);
