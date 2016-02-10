@@ -1,5 +1,5 @@
 # Solved Problems
-Repository with solved problems from Online Judges.
+Repository with solved problems from Online Judges
 * HackerEarth
 * HackerRank
 * Project-Euler
