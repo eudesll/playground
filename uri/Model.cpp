@@ -1,7 +1,7 @@
 /**
  * URI
- * Problem Id : xxxxxxxxxx
- * Problem Name: xxxxxxxxx
+ * Problem Id : xxxxxxxxxxx
+ * Problem Name: xxxxxxxxxx
  */
 
 #include <iostream>
