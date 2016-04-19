@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:ns0="urn:partner.soap.sforce.com" xmlns:ns1="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="urn:partner.soap.sforce.com" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header>
+      <tns:SessionHeader>
+         <tns:sessionId>00DP0000003oa0V!ARUAQANXGpcoBfld1DrO.YmUwn2DQUNhjEGqZYLHfDql6sO5vH.X7do2SkjRWkwJRo1wJcaUw.Qe3nJM7w4Mh2Z7hRasSouJ</tns:sessionId>
+      </tns:SessionHeader>
+   </SOAP-ENV:Header>
+   <ns1:Body>
+      <ns0:getUserInfo/>
+   </ns1:Body>
+</SOAP-ENV:Envelope>
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:ns0="urn:partner.soap.sforce.com" xmlns:ns1="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="urn:partner.soap.sforce.com" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header>
+      <tns:SessionHeader>
+         <tns:sessionId>00DP0000003oa0V!ARUAQPnylpuMW128x8Kb65YvVzfgUb5L23Bw5wq4NhiOIPlVH3lZTbh_CbOMGMZmQPQAFv_rm_Vcb_bmTTpUOr.qxb8ipKwS</tns:sessionId>
+      </tns:SessionHeader>
+   </SOAP-ENV:Header>
+   <ns1:Body>
+      <ns0:getUserInfo/>
+   </ns1:Body>
+</SOAP-ENV:Envelope>
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
+Starting new HTTPS connection (1): cs4.salesforce.com
