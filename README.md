@@ -7,3 +7,4 @@ Repository with solved problems from Online Judges:
 * SPOJ
 * SPOJ-Brasil
 * URI
+* CodeWars
