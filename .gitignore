@@ -24,6 +24,5 @@
 
 # Executables
 *.exe
-*.java
 *.out
 *.app
