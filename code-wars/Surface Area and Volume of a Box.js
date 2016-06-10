@@ -4,3 +4,9 @@ function getSize(width, height, depth) {
     
     return [area, volume];
 }
+
+// BEST
+// const getSize = (w, h, d) => [
+//   (w * h + w * d + h * d) * 2,
+//   w * h * d
+// ];
