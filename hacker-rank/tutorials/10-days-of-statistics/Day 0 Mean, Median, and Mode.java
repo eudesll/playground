@@ -1,6 +1,6 @@
 /* 
    HackerRank
-   Problem Name: 10-basic-statistics
+   Problem Name: s10-basic-statistics
 */
 
 import java.io.*;
