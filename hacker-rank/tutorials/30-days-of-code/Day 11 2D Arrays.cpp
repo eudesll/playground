@@ -25,7 +25,7 @@ int main(){
 			sum += arr[arr_i + 1][arr_j] + arr[arr_i + 1][arr_j - 1] + arr[arr_i + 1][arr_j + 1];
 			sum += arr[arr_i - 1][arr_j] + arr[arr_i - 1][arr_j - 1] + arr[arr_i - 1][arr_j + 1];
 
-			if (sum > bSum) {
+			if (sum > bSum || (arr_i == 1 && arr_j == 1)) {
 				bSum = sum;
 			}
 		}
