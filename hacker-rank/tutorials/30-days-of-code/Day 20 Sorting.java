@@ -33,7 +33,7 @@ public class Solution {
                 }
             }
             
-            swapNum += numberOfSwaps;
+            swapNum += rowSwaps;
             
             if (rowSwaps == 0) {
                 break;
