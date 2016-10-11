@@ -1,6 +1,11 @@
 /* 
+<<<<<<< HEAD
     HackerRank
     Problem Name: 30-binary-trees
+=======
+   HackerRank
+   Problem Name: 30-binary-trees
+>>>>>>> 2904f6a7d4320e2d833507c78c181ee74bc145ec
 */
 
 import java.io.*;
@@ -28,8 +33,12 @@ class Solution{
             System.out.print(node.data + " ");
         }
     }
+<<<<<<< HEAD
 
     public static Node insert(Node root,int data){
+=======
+    	public static Node insert(Node root,int data){
+>>>>>>> 2904f6a7d4320e2d833507c78c181ee74bc145ec
         if(root==null){
             return new Node(data);
         }
@@ -47,6 +56,7 @@ class Solution{
         }
     }
     public static void main(String args[]){
+<<<<<<< HEAD
         Scanner sc=new Scanner(System.in);
         int T=sc.nextInt();
         Node root=null;
@@ -57,3 +67,15 @@ class Solution{
         levelOrder(root);
     }
 }
+=======
+            Scanner sc=new Scanner(System.in);
+            int T=sc.nextInt();
+            Node root=null;
+            while(T-->0){
+                int data=sc.nextInt();
+                root=insert(root,data);
+            }
+            levelOrder(root);
+        }	
+}
+>>>>>>> 2904f6a7d4320e2d833507c78c181ee74bc145ec
