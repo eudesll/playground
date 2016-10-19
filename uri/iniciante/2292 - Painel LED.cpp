@@ -5,44 +5,36 @@
  */
 
 #include <iostream>
-#include <vector>
+#include <cmath>
+#include <algorithm>
+#include <bitset>
 using namespace std;
 
-int main () {
+int main() {
 
 	int n;
+	long long alt;
+	string panel;
 
 	cin >> n;
 	while (n--) {
-		string panel, temp;
-		int alt, rIndex = -1;
-		vector<string> panels;
-
 		cin >> panel >> alt;
-		temp = panel;
 
-		for (int i = 0; i < alt; i++) {
+		reverse(panel.begin(), panel.end());
+		replace(panel.begin(), panel.end(), 'O', '1');
+		replace(panel.begin(), panel.end(), 'X', '0');
 
-			panel[0] = (panel[0] == 'X' ? 'O' : 'X');
+		long long val = bitset<128>(panel).to_ulong() + alt;
 
-			for (int j = 1; j < panel.size(); j++) {
+		string result = bitset<128>(val).to_string();
 
-				if (panel[j - 1] == 'X') {
-					panel[j] = (panel[j] == 'X' ? 'O' : 'X');
-				} else {
-					break;
-				}
-			}
-
-			if (temp == panel) {
-				rIndex = alt % (i + 1);
-				break;
-			}
-
-			panels.push_back(panel);
+		int begin = result.size() - 1;
+		int end = result.size() - panel.size();
+		for (int i = begin; i >= end; i--) {
+			cout << (result[i] == '1' ? 'O' : 'X');
 		}
 
-		cout << (rIndex == -1 ? panel : panels[rIndex - 1]) << endl;
+		cout << endl;
 	}
 
 	return 0;
