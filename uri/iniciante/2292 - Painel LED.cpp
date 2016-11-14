@@ -5,33 +5,27 @@
  */
 
 #include <iostream>
-#include <cmath>
-#include <algorithm>
-#include <bitset>
 using namespace std;
 
 int main() {
 
-	int n;
-	long long alt;
+	int n, panelSize;
+	long long alt, panelNum = 0;
 	string panel;
 
 	cin >> n;
 	while (n--) {
 		cin >> panel >> alt;
+		panelSize = panel.size();
 
-		reverse(panel.begin(), panel.end());
-		replace(panel.begin(), panel.end(), 'O', '1');
-		replace(panel.begin(), panel.end(), 'X', '0');
+		for (int i = 0; i < panelSize; i++) {
+			panelNum |= ((panel[i] == 'O') << i);
+		}
 
-		long long val = bitset<128>(panel).to_ulong() + alt;
+		panelNum += alt;
 
-		string result = bitset<128>(val).to_string();
-
-		int begin = result.size() - 1;
-		int end = result.size() - panel.size();
-		for (int i = begin; i >= end; i--) {
-			cout << (result[i] == '1' ? 'O' : 'X');
+		for (int i = 0; i < panelSize; i++) {
+			cout << ((panelNum & 1LL) ? 'O' : 'X');
 		}
 
 		cout << endl;
