@@ -1,6 +1,6 @@
-# Solved Problems
+# Online Judges
 
-Repository with solved problems from Online Judges:
+Solutions for problems from Online Judges:
 
 * [HackerEarth](https://www.hackerearth.com)
 * [HackerRank](http://hackerrank.com/)
