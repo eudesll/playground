@@ -1,0 +1,27 @@
+{
+    "name": "pokemons-api",
+    "version": "0.0.1",
+    "description": "API para nossos Pokemons",
+    "main": "index.js",
+    "scripts": {
+        "start": "node script.js",
+        "roda": "node script.js"
+    },
+    "keywords": [
+        "pokemons",
+        "node",
+        "mongodb",
+        "webschool"
+    ],
+    "author": "Eudes",
+    "license": "WTFPL",
+    "dependencies": {
+        "mongoose": "^4.4.10"
+    },
+    "devDependencies": {
+        "jasmine": "^2.4.1"
+    },
+    "optionalDependencies": {
+        "colors": "^1.1.2"
+    }
+}

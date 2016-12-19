@@ -1,0 +1,20 @@
+{
+  "name": "mongoose-pokemons",
+  "version": "0.0.1",
+  "description": "Schemas com Mongoose",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "nodejs",
+    "mean"
+  ],
+  "author": "Eudes Lemos",
+  "license": "WTFPL",
+  "dependencies": {
+    "mongoose": "^4.4.10"
+  }
+}
