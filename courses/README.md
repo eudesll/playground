@@ -1,4 +1,4 @@
-# Courses Problems
+# Courses
 
 Resolutions and implementations of problems from Online Courses.
 

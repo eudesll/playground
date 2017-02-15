@@ -1,6 +1,6 @@
 # Problem Solving
 
-Solutions for problems from Online Judges and other things:
+Solutions for problems found in these Online Judges:
 
 * [HackerEarth](https://www.hackerearth.com)
 * [HackerRank](http://hackerrank.com/)
