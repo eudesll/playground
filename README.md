@@ -1,29 +1,16 @@
 # Playground
 
 ``` javascript
-var description = 'Implementations and problems solved from ';
+var descTemp = 'Implementations and problems solved from ';
 ```
-
-* Books
 
 ``` javascript
-description + 'books.';
+var descriptions = {
+	books: descTemp + 'books.',
+	courses: descTemp + 'courses.',
+	freeCodeCamp: descTemp + 'free-code-camp.',
+	problemSolving: descTemp + 'Online Judges.'
+}
 ```
 
-* Courses
-
-``` javascript
-description + 'courses.';
-```
-
-* Free-Code-Camp
-
-``` javascript
-description + 'free-code-camp.';
-```
-
-* Problem-Solving
-
-``` javascript
-description + 'Online Judges.';
-```
+:))
