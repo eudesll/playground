@@ -21,3 +21,6 @@ Resolutions and implementations of problems from Online Courses.
 	* [Be MEAN](https://github.com/Webschool-io/be-mean-instagram)
 * [eXcript](https://www.youtube.com/channel/UCRu4BNG9k_BRUu-aCYJsgHg)
 	* [Python + Tkinter](https://www.youtube.com/watch?v=kSQDp20eeqE&list=PLesCEcYj003ShHnUT83gQEH6KtG8uysUE)
+
+### Tutorials Point
+* [JAVA-8](https://www.tutorialspoint.com/java8/index.htm)
