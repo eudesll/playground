@@ -5,6 +5,7 @@ Resolutions and implementations of problems from Online Courses.
 ### Udemy
 * [Algorithms in C : Concepts, Examples, Code + Time Complexity](https://www.udemy.com/algorithms-c-concepts-examples-code/learn/#/)
 * [Artificial Intelligence & Games in Java](https://www.udemy.com/artificial-intelligence-games-in-java/learn/#/)
+* [The Complete Ruby on Rails Developer Course](https://www.udemy.com/the-complete-ruby-on-rails-developer-course/learn/#/)
 
 ### Coursera
 * [Learn to Program and Analyze Data with Python](https://www.coursera.org/specializations/python)
