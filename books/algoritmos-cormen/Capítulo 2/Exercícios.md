@@ -4,27 +4,27 @@
 
 __2.1-1__ Usando a Figura 2.2 como modelo, ilustre a operação de `Insertion-Sort` no arranjo A = {31, 41, 59, 26, 41, 58}.
 
-> A = {31, `41`, 59, 26, 41, 58} <br />
-> A = {31, 41, `59`, 26, 41, 58} <br />
-> A = {31, 41, 59, `26`, 41, 58} <br />
-> A = {26, 31, 41, 59, `41`, 58} <br />
-> A = {26, 31, 41, 41, 59, `58`} <br />
-> \>> A = {26, 31, 41, 41, 58, 59}   
+A = {31, `41`, 59, 26, 41, 58} <br />
+A = {31, 41, `59`, 26, 41, 58} <br />
+A = {31, 41, 59, `26`, 41, 58} <br />
+A = {26, 31, 41, 59, `41`, 58} <br />
+A = {26, 31, 41, 41, 59, `58`} <br />
+__A__ = {26, 31, 41, 41, 58, 59}   
 
 __2.1-2__ Reecreva o procedimento `Insertion-Sort` para ordenar em ordem não crescente, em vez da ordem não decrescente.
 
->``` python
+``` python
 def e212(a):
-    for i in range(1, len(a)):
-        chave = a[i]
-        posicao = i - 1
+  for i in range(1, len(a)):
+    chave = a[i]
+    posicao = i - 1
 
->        while posicao >= 0 and a[posicao] < chave:
-            a[posicao + 1] = a[posicao]
-            a[posicao] = chave
-            posicao = posicao - 1
+  while posicao >= 0 and a[posicao] < chave:
+    a[posicao + 1] = a[posicao]
+    a[posicao] = chave
+    posicao = posicao - 1
 
->    return a
+  return a
 ```
 
 __2.1-3__ Considere o problema de busca.
@@ -35,34 +35,34 @@ __Saída__: Um índice `i` tal que `v = A[i]` ou o valor especial `NIL`, se `v` 
 <br /><br />
 Escreva o pseudocódigo para busca linear, que faça a varredura da sequência, procurando por `v`. Usando um invariante de laço, prove que seu algoritmo é correto. Certifique-se de que seu invariante de laço satisfaz as três propriedades necessárias.
 
-> A variável `index` representará o invariante de laço.<br />
-__Inicialização__: `index` será inicializada com o valor `NIL`, fazendo com que seja verdade antes da primeira iteração.<br />
-__Manutenção__: Durante as iterações `index` continuará com seu valor válido independetemente se tiver encontrado um valor ou não.<br />
-__Término__: Após o fim do laço, a variável `index` possuirá valor válido.
+__R__ - A variável `index` representará o invariante de laço.<br />
+* __Inicialização__: `index` será inicializada com o valor `NIL`, fazendo com que seja verdade antes da primeira iteração.<br />
+* __Manutenção__: Durante as iterações `index` continuará com seu valor válido independetemente se tiver encontrado um valor ou não.<br />
+* __Término__: Após o fim do laço, a variável `index` possuirá valor válido.
 
->``` python
+``` python
 def e213(a, v):
-    r = "NIL"
-    for i in range(len(a)):
-        if a[i] == v:
-            r = i
+  r = "NIL"
+  for i in range(len(a)):
+    if a[i] == v:
+      r = i
 
->    return r
+  return r
 ```
 
 __2.1-4__ Considere o problema de somar dois inteiros binários de `n` bits, armazenados em dois arranjos de `n` elementos A e B. A soma dos dois inteiros deve ser armazenada em forma binária em um arranjo (`n` + 1) elementos C. Enuncie o problema formalmente e escreva o pseudocódigo para somar os dois inteiros.
 
->``` python
+``` python
 def e214(a, b):
-    n = len(a)
-    c = [0] * (n + 1)
+  n = len(a)
+  c = [0] * (n + 1)
 
->    for i in range(n - 1, -1, -1):
-        sum_ = a[i] + b[i] + c[i + 1]
-        c[i] = int(sum_ / 2)
-        c[i + 1] = int(sum_ % 2)
+  for i in range(n - 1, -1, -1):
+    sum_ = a[i] + b[i] + c[i + 1]
+    c[i] = int(sum_ / 2)
+    c[i + 1] = int(sum_ % 2)
 
->    return c
+  return c
 ```
 
 __2.2-1__ Expresse a função `n³/1000 - 100n² - 100n + 3` em termos de notação Θ.
