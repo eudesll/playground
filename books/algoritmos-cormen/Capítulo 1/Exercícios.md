@@ -35,7 +35,7 @@ __1.2-2__ Suponha que estamos comparando implementações de ordenação por ins
 
 >A ordenação por inserção supera a ordenação por intercalação quando a entrada `n` for menor ou igual a 43 registros, como pode ser observado na tabela e gráfico abaixo.
 
->| n      | Inserção (8 * n²) | Intercalação (64 * n * lg(n)) |           |
+| n      | Inserção (8 * n²) | Intercalação (64 * n * lg(n)) |           |
 | ------ | --------          | ----------------              | --------- |
 | 23	    | 4232,00	          | 4615,45                       |           |
 | 24	    | 4608,00	          | 4881,49                       |           |
@@ -45,7 +45,8 @@ __1.2-2__ Suponha que estamos comparando implementações de ordenação por ins
 | 28	    | 6272,00	          | 5971,31                       |           |
 | 29	    | 6728,00	          | 6249,70                       |           |
 | 30	    | 7200,00	          | 6530,30                       |           |
-![Tempo de Execução X Quantidade de Entradas (n)](execucaoxentradas.jpg)
+
+>![Tempo de Execução X Quantidade de Entradas (n)](execucaoxentradas.jpg)
 
 
 
@@ -53,7 +54,7 @@ __1.2-3__ Qual é o menor valor de `n` tal que um algoritmo cujo tempo de execu�
 
 >O Algoritmo I `100n²` só passa a ser executado mais rapidamente que o Algoritmo II `2ⁿ` quando a quantidade de registros se iguala ou ultrapassa 15, como pode ser observado na tabela e gráfica abaixo.
 
->| n	       | Algoritmo I (100 * n²)    | Algoritmo II (2ⁿ)   |                |
+| n	       | Algoritmo I (100 * n²)    | Algoritmo II (2ⁿ)   |                |
 | -------- | ------------------------- | ---------------------- | -------------- |
 | 10	      | 10000,00	                 | 1024,00                |                |
 | 11	      | 12100,00	                 | 2048,00                |                |
@@ -66,7 +67,8 @@ __1.2-3__ Qual é o menor valor de `n` tal que um algoritmo cujo tempo de execu�
 | 18	      | 32400,00	                 | 262144,00              |                |
 | 19	      | 36100,00	                 | 524288,00              |                |
 | 20	      | 40000,00	                 | 1048576,00             |                |
-![Tempo de Execução X Quantidade de Entradas (n)](execucaoxentradas2.jpg)
+
+>![Tempo de Execução X Quantidade de Entradas (n)](execucaoxentradas2.jpg)
 
 
 ### Problemas
@@ -77,12 +79,13 @@ Para cada função `f(n)` e cada tempo `t` na tabela a seguir, determine o maior
 
 |                        | <sub>1 segundo</sub> | <sub>1 minuto</sub>    | <sub>1 hora</sub>        | <sub>1 dia</sub>           | <sub>1 mês</sub>             | <sub>1 ano</sub>              | <sub>1 século</sub>            |
 | ---------              | -----------          | ----------             | --------                 | -------                    | -------                      | -------                       | ----------                     |
-| <sub>__lg n__</sub>    | <sub>2^10⁶</sub>	    | <sub>60 * 2^10⁶</sub>	 | <sub>3600 * 2^10⁶</sub>	| <sub>216000 * 2^10⁶</sub>	 | <sub>12960000 * 2^10⁶</sub>	| <sub>777600000 * 2^10⁶</sub>	| <sub>46656000000 * 2^10⁶</sub> |
-| <sub>__sqrt(n)__</sub> | <sub>1E+12</sub>	    | <sub>6E+13</sub>	     | <sub>3,6E+15</sub>	    | <sub>2,16E+17</sub>	     | <sub>1,296E+19</sub>	        | <sub>7,776E+20</sub>	        | <sub>4,6656E+22</sub>          |
-| <sub>__n__</sub>       | <sub>1000000</sub>	| <sub>60000000</sub>	 | <sub>3600000000</sub>	| <sub>2,16E+11</sub>	     | <sub>1,296E+13</sub>	        | <sub>7,776E+14</sub>	        | <sub>4,6656E+16</sub>          |
-| <sub>__n lg n__</sub>  | <sub>140000</sub>	| <sub>8400000</sub>	 | <sub>504000000</sub>	    | <sub>30240000000</sub>	 | <sub>1,8144E+12</sub>	    | <sub>1,08864E+14</sub>	    | <sub>6,53184E+15</sub>         |
-| <sub>__n²__</sub>      | <sub>1000</sub>	    | <sub>60000</sub>	     | <sub>3600000</sub>	    | <sub>216000000</sub>	     | <sub>12960000000</sub>	    | <sub>7,776E+11</sub>	        | <sub>4,6656E+13</sub>          |
-| <sub>__n³__</sub>      | <sub>100</sub>	    | <sub>6000</sub>	     | <sub>360000</sub>	    | <sub>21600000</sub>	     | <sub>1296000000</sub>	    | <sub>77760000000</sub>	    | <sub>4,6656E+12</sub>          |
-| <sub>__2ⁿ__</sub>      | <sub>19,93</sub>	    | <sub>1195,89</sub>	 | <sub>71753,65</sub>	    | <sub>4305218,81</sub>	     | <sub>258313128,7</sub>	    | <sub>15498787720</sub>	    | <sub>9,29927E+11</sub>         |
-| <sub>__n!__</sub>      | <sub>9</sub>	        | <sub>540</sub>	     | <sub>32400</sub>	        | <sub>1944000</sub>	     | <sub>116640000</sub>	        | <sub>6998400000</sub>	        | <sub>4,19904E+11</sub>         |
-    
+| <sub>__lg n__</sub>    | <sub>2^10⁶</sub>	    | <sub>2^6*10⁷</sub>	 | <sub>2^36*10⁸</sub>	    | <sub>2^864*10⁸</sub>	     | <sub>2^2592*10⁹</sub>	    | <sub>2^94608*10¹⁰</sub>	    | <sub>2^94608*10¹²</sub> |
+| <sub>__sqrt(n)__</sub> | <sub>10¹²</sub>	    | <sub>36^10¹⁴</sub>	 | <sub>1296^10¹⁶</sub>	    | <sub>746496^10¹⁶</sub>	 | <sub>6718464^10¹⁸</sub>	    | <sub>8950673664^10²⁰</sub>	| <sub>8950673664^10²⁴</sub>          |
+| <sub>__n__</sub>       | <sub>10⁶</sub>	    | <sub>6*10⁷</sub>	     | <sub>36*10⁸</sub>	    | <sub>864*10⁸</sub>	     | <sub>2592*10⁹</sub>	        | <sub>94608*10¹⁰</sub>	        | <sub>94608*10¹²</sub>          |
+| <sub>__n lg n__</sub>  | <sub>62746</sub>	    | <sub>2801417</sub>	 | <sub>133378058</sub>	    | <sub>2755147513</sub>	     | <sub>71870856404</sub>	    | <sub>797633893349</sub>	    | <sub>68654697441062</sub>         |
+| <sub>__n²__</sub>      | <sub>1000</sub>	    | <sub>7745</sub>	     | <sub>60000</sub>	        | <sub>293938</sub>	         | <sub>1609968</sub>	        | <sub>5615692</sub>	        | <sub>56175382</sub>          |
+| <sub>__n³__</sub>      | <sub>100</sub>	    | <sub>391</sub>	     | <sub>1532</sub>	        | <sub>4420</sub>	         | <sub>13736</sub>	            | <sub>31593</sub>	            | <sub>146677</sub>          |
+| <sub>__2ⁿ__</sub>      | <sub>19</sub>	    | <sub>25</sub>	         | <sub>31</sub>	        | <sub>36</sub>	             | <sub>41</sub>	            | <sub>44</sub>	                | <sub>51</sub>         |
+| <sub>__n!__</sub>      | <sub>9</sub>	        | <sub>11</sub>	         | <sub>12</sub>	        | <sub>13</sub>	             | <sub>15</sub>	            | <sub>16</sub>	                | <sub>17</sub>         |
+
+<!-- ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁺ ⁻ ⁼ ⁽ ⁾ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₊ ₋ ₌ ₍ ₎ ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ⁱ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ -->    
