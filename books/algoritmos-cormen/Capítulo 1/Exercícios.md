@@ -20,7 +20,7 @@ __1.1-3__ Selecione uma estrutura de dados que você tenha visto antes e discuta
 __1.1-4__ Em que aspectos os problemas anteriores do caminho mais curto e do caixeiro-viajante são semelhantes? Em que aspectos eles são diferentes?
 
 * __Semelhantes__: Quando o problema do caixeiro-viajante possui poucos nós sua solução se assemelha ao do caminho mais curto.
-* __Diferenças__: Ao inserir mais nós ao problema do caixeiro-viajante a solução se modifica pois não existe nenhum algoritmo conhecido para a sua resolução pois esse é um problema NP Completo.
+* __Diferenças__: O caminho mais curto é polinomial, enquanto o caixeiro-viajante é NP-Completo.
 
 __1.1-5__ Mostre um problema real no qual apenas a melhor solução servirá. Em seguida, apresente um problema em que baste uma solução que seja "aproximadamente" a melhor.
 
