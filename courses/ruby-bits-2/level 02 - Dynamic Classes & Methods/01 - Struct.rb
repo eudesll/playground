@@ -1,0 +1,1 @@
+Game = Struct.new(:name, :year, :system)
