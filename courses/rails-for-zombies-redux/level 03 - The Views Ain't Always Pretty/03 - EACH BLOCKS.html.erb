@@ -1,0 +1,7 @@
+<% zombies = Zombie.all %>
+
+<ul>
+<% zombies.each do |zombie| %>
+  <%= zombie.name %>
+<% end %>
+</ul>

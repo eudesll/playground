@@ -1,0 +1,12 @@
+<% zombies = Zombie.all %>
+
+<ul>
+  <% zombies.each do |zombie| %>
+    <li>
+      <%= zombie.name %>
+      <% if zombie.tweets.length > 1 %>
+        SMART ZOMBIE
+      <% end %>
+    </li>
+  <% end %>
+</ul>

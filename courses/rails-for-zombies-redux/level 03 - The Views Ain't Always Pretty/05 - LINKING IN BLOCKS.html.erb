@@ -1,0 +1,9 @@
+<% zombies = Zombie.all %>
+
+<ul>
+  <% zombies.each do |zombie| %>
+    <li>
+      <%= link_to zombie.name, edit_zombie_path(zombie) %>
+    </li>
+  <% end %>
+</ul>
