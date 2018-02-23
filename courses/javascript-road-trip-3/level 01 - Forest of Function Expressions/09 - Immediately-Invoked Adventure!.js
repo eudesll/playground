@@ -1,0 +1,1 @@
+adventureSelector(3)();
