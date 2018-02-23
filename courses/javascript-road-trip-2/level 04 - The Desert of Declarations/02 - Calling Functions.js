@@ -1,0 +1,1 @@
+console.log(multiplyTrio(8,4,10))
