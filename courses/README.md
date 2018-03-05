@@ -24,6 +24,7 @@ Resolutions and implementations of problems from Online Courses.
 * [Ruby Bits](https://www.codeschool.com/courses/ruby-bits)
 * [Ruby Bits 2](https://www.codeschool.com/courses/ruby-bits-part-2)
 * [Rails for Zombies Redux](https://www.codeschool.com/courses/rails-for-zombies-redux)
+* [Rails for Zombies 2](https://www.codeschool.com/courses/rails-for-zombies-2)
 * [JavaScript Road Trip Part 1](https://www.codeschool.com/courses/javascript-road-trip-part-1)
 * [JavaScript Road Trip Part 2](https://www.codeschool.com/courses/javascript-road-trip-part-2)
 * [JavaScript Road Trip Part 3](https://www.codeschool.com/courses/javascript-road-trip-part-3)
