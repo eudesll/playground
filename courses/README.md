@@ -31,6 +31,7 @@ Resolutions and implementations of problems from Online Courses.
 * [JavaScript Road Trip Part 3](https://www.codeschool.com/courses/javascript-road-trip-part-3)
 * [JavaScript Best Practices](https://www.codeschool.com/courses/javascript-best-practices)
 * [Accelerating Through Angular](https://www.codeschool.com/courses/accelerating-through-angular)
+* [Powering Up With React](https://www.codeschool.com/courses/powering-up-with-react)
 
 ### Data Camp
 * [Data Scientist with Python](https://www.datacamp.com/tracks/data-scientist-with-python)
