@@ -26,6 +26,8 @@ Resolutions and implementations of problems from Online Courses.
 * [Rails for Zombies Redux](https://www.codeschool.com/courses/rails-for-zombies-redux)
 * [Rails for Zombies 2](https://www.codeschool.com/courses/rails-for-zombies-2)
 * [Rails 4: Zombie Outlaws](https://www.codeschool.com/courses/rails-4-zombie-outlaws)
+* [Rails 4 Patterns](https://www.codeschool.com/courses/rails-4-patterns)
+* [Surviving APIs with Rails](https://www.codeschool.com/courses/surviving-apis-with-rails)
 * [JavaScript Road Trip Part 1](https://www.codeschool.com/courses/javascript-road-trip-part-1)
 * [JavaScript Road Trip Part 2](https://www.codeschool.com/courses/javascript-road-trip-part-2)
 * [JavaScript Road Trip Part 3](https://www.codeschool.com/courses/javascript-road-trip-part-3)
