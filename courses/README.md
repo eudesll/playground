@@ -11,6 +11,7 @@ Resolutions and implementations of problems from Online Courses.
 * [Learn to Program and Analyze Data with Python](https://www.coursera.org/specializations/python)
 * [Desenvolva Programas de Forma Ágil e com Qualidade](https://www.coursera.org/specializations/programacao-java-e-agil)
 * [Algorithms - Princeton University](http://algs4.cs.princeton.edu/home/)
+* [Docker Mastery: The Complete Toolset From a Docker Captain](https://www.udemy.com/docker-mastery/learn/v4/content)
 
 ### Youtube
 * [Be MEAN](https://github.com/Webschool-io/be-mean-instagram)
