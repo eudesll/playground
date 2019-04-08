@@ -10,12 +10,14 @@ using namespace std;
 
 int main () {
 
-	long n;
+	long long n, bra, ger;
 
 	while (cin >> n && n) {
+		bra = floor(n * 1.0 / 90.0);
+		ger = ceil(n * 7.0 / 90.0);
 
-		cout << "Brasil " << floor(n * 1.0 / 90.0) << " x ";
-		cout << "Alemanha " << ceil(n * 7.0 / 90.0) << endl;
+		cout << "Brasil " << bra << " x ";
+		cout << "Alemanha " << ger << endl;
 	}
 
 	return 0;
