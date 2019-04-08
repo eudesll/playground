@@ -10,22 +10,36 @@ using namespace std;
 int main () {
 
 	string code;
+	char l, lastL;
+	bool isFor = false;
 	int lv = 0, lPad = 0;
 
 	while (getline(cin, code)) {
 
 		int size = code.size();
 
+		if (code[0] == '#') {
+			cout << code << endl;
+			continue;
+		}
+
+		if (l == '\n') {
+			lv = lPad = 0;
+		}
+
 		for (int i = 0; i < size; i++) {
-			if (code[i] == '{') {
+
+			char l = code[i];
+
+			if (l == '{') {
 				cout << endl;
 			}
 
-			if (code[i] == '{') {
+			if (l == '{') {
 				if (lv > 0) {
 					lPad = 1;
 				}
-			} else if (code[i] == '}') {
+			} else if (l == '}') {
 				lv--;
 			}
 
@@ -37,16 +51,22 @@ int main () {
 				lPad = !lPad;
 			}
 
-			if (code[i] == ' ') {
-				cout << " ";
+			cout << l;
+
+			if (l == '(' && i >= 3) {
+				if (code.substr(i - 3, 3) == "for") {
+					isFor = true;
+				}
 			}
 
-			cout << code[i];
+			if (l == ')' && isFor) {
+				isFor = false;
+			}
 
-			if (code[i] == ';' || code[i] == '{' || code[i] == '}' || code[i] == '>') {
+			if ((l == ';' && !isFor) || l == '{' || l == '}' || l == '>') {
 				cout << endl;
 
-				if (code[i] == '{') {
+				if (l == '{') {
 					lv++;
 
 				}
@@ -55,6 +75,8 @@ int main () {
 					lPad = 1;
 				}
 			}
+
+			lastL = l;
 		}
 
 	}
