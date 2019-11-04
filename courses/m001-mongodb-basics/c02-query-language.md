@@ -10,6 +10,7 @@ How many documents in video.movieDetails match the filter {genres: "Comedy"}?
 
 **Answer**: 
 ```js
+749
 db.movieDetails.count({"genres": "Comedy"})
 ```
 
@@ -69,6 +70,7 @@ You will find the count() method useful in answering this question using the mon
 
 **Answer**: 
 ```js
+3
 db.movieDetails.count({"rated": "PG", "awards.nominations": 10})
 ```
 
