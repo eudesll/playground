@@ -1,3 +1,5 @@
+package birth
+
 // Complete the birthdayCakeCandles function below.
 func birthdayCakeCandles(ar []int32) int32 {
 	numMap := map[int32]int32{}
