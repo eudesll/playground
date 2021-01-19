@@ -40,3 +40,10 @@ Resolutions and implementations of problems from Online Courses.
 
 ### Data Camp
 * [Data Scientist with Python](https://www.datacamp.com/tracks/data-scientist-with-python)
+
+### Gophercises
+* [Exercises for budding gophers](https://gophercises.com)
+
+### MongoDB University
+* [M001 - MongoDB Basics](https://university.mongodb.com/mercury/M001/2019_September/overview)
+* [M320 - Data Modeling](https://university.mongodb.com/mercury/M320/2019_October/overview)
